@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: #0301a0; */
+  height: 10vh;
+  width: 100%;
+}
+.navbar h1 a {
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0px 10px;
+  padding: 9vh 20px;
+}
+.navbar nav a {
+  margin: 0px 5px;
+  padding: 3.2vh 30px;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar nav a i{
+  margin-right: 10px;
+}
+.navbar nav a:nth-child(1) {
+  color: #f10404;
+}
+/* navbar ends here*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.leftcontainer button {
+  padding: 7px;
+  margin-top: 20px;
+  margin-right: 8px;
+  border-radius: 20px;
+  background-color:rgb(201, 199, 197);
+  border: transparent;
+  transition: all 2s linear;
+
+}
+.leftcontainer button a {
+  color: #000000;
+  font-size: 20px;
+}
+.leftcontainer button:hover {
+  background-color: transparent;
+  transition: all 2s ease-out;
+}
+.leftcontainer button a:hover {
+  color: black;
+  transition: all 2s ease-out;
+}
+.rightcontainer img {
+  width: 150px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+/* main container ends here */
+.services {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: tomato;
+  color: #ffffff;
+
+}
+.web,
+.app,
+.graphics {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  height: 80vh;
+  border-radius: 44px;
+  
+}
+.web img,
+.app img,
+.graphics img {
+  width: 80%;
+  margin-bottom: 5%;
+  border-radius: 12%;
+}
+.rating {
+  margin: 10px 0px;
+  color: #ffd700;
+}
+.web p,
+.app p,
+.graphics p {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  margin-bottom: 10px;
+}
+.web button,
+.app button,
+.graphics button {
+  padding: 10px 20px;
+  border-radius: 22px;
+  border: transparent;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.eye {
+  font-size: 20px;
+  padding-left: 10px;
+}
+/* services ends here */
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.video {
+  margin-left: 20px;
+}
+.video iframe {
+  border-radius: 42px;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10vw;
+}
+.intro p {
+  width: 70%;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  margin: 20px 0px;
+}
+.button button {
+  padding: 10px;
+  border: transparent;
+  border-radius: 22px;
+}
+.button button a {
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 22px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+}
+.button button a i {
+  margin-left: 10px;
+}
+/* indro ends here */
+/* footer starts here */
+.navfooter{
+  width: 100%;
+  height: 20vh;
+  background-color: olive;
+  display: flex;
+  justify-content: space-around;
+}
+#home,
+#About,
+#Blog,
+#contact,
+#services {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  transition: all 1s linear;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#home i,
+#About i,
+#Blog i,
+#contact i,
+#services i
+{
+  margin-right: 10px;
+}
+#home:hover,
+#About:hover,
+#Blog:hover,
+#contact:hover,
+#services:hover {
+margin-bottom: 90px;
+}
+@media screen and (min-width: 1130px) {
+
+}
